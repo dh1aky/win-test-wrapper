@@ -1,13 +1,14 @@
 # win-test-wrapper
 
-Hamradio logging
+Hamradio logging. Starts Win-Test under Linux as known from Windows by typing 'win-test'.
 
 This is a simple wrapper shellscript for calling Win-Test from Linux commandline in the Windows way managed by the debian package management. 
 
 It installs the script calling wine and Win-Test in /usr/bin. It also checks the dependency concerning wine and installs it when it is not present. Have Fun.
 
 Install: 
-  apt install win-test-wrapper
+Download the .deb file, go to the Download dir. Then type
+  apt install ./win-test-wrapper
 
 Uninstall:
   apt remove win-test
