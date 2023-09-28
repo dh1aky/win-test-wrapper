@@ -1,5 +1,7 @@
 # win-test-wrapper
 
+Hamradio logging
+
 This is a simple wrapper shellscript for calling Win-Test from Linux commandline in the Windows way managed by the debian package management. 
 
 It installs the script calling wine and Win-Test in /usr/bin. It also checks the dependency concerning wine and installs it when it is not present. Have Fun.
