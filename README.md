@@ -17,8 +17,8 @@ Uninstall:
 Wine will be required and automatically installed by package manager if it was not installed before.
 
 It is necessary to install win-test.exe itself in the usual way after
-  wine win-test....
+  wine. Maybe the installation hangs on creating a desktop link. Simple abort that, at this time Win-Test is installed full-featured.
 
-If its finishes simple call the program using 
+After thet step simple call the program using 
   win-test
 on the Linux command line
